@@ -1,34 +1,208 @@
 <!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>iQibla – Assistance</title><meta name="description" content="iQibla : la direction de la Qibla partout, même hors ligne.">
-<link rel="stylesheet" href="style.css"></head><body><main>
-<header><h1>iQibla</h1><p class="sub">La direction de la Qibla, partout.</p>
-<nav><a href="#fr">Français</a><a href="#en">English</a><a href="privacy.html">Confidentialité / Privacy</a></nav></header>
+<title>iQibla – Assistance</title>
+<meta name="description" content="iQibla : la direction de la Qibla partout, même hors ligne. / The Qibla direction anywhere, even offline.">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className += " js";</script>
+</head><body><main>
+<header>
+<div class="bar"><label class="picker"><svg class="globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M2.8 12h18.4M12 2.8c2.6 2.6 3.9 5.6 3.9 9.2s-1.3 6.6-3.9 9.2M12 2.8C9.4 5.4 8.1 8.4 8.1 12s1.3 6.6 3.9 9.2"/></svg><select id="lang" aria-label="Langue"><option value="fr" lang="fr">Français</option><option value="en" lang="en">English</option><option value="ar" lang="ar">العربية</option><option value="tr" lang="tr">Türkçe</option><option value="ur" lang="ur">اردو</option><option value="id" lang="id">Bahasa Indonesia</option><option value="ms" lang="ms">Bahasa Melayu</option><option value="bn" lang="bn">বাংলা</option><option value="de" lang="de">Deutsch</option><option value="es" lang="es">Español</option><option value="el" lang="el">Ελληνικά</option><option value="ta" lang="ta">தமிழ்</option></select><svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></label></div>
+<h1 id="h1">iQibla</h1><p class="sub" id="sub">La direction de la Qibla, partout.</p>
+<nav><a id="other" href="privacy.html">Politique de confidentialité</a></nav></header>
 
-<section class="card" id="fr"><p class="lang">Français</p><h2>Assistance</h2>
-<p>iQibla indique la direction de la Kaaba depuis n'importe où dans le monde : boussole, carte, mosquées à proximité et réalité augmentée.</p>
+<section class="card" id="fr" lang="fr"><h2>Assistance</h2>
+<p>iQibla indique la direction de la Kaaba depuis n'importe où dans le monde, sur iPhone, iPad et Apple Watch : boussole, carte, mosquées à proximité et réalité augmentée.</p>
 <h3>Questions fréquentes</h3>
 <ul>
-<li><strong>La direction semble fausse.</strong> Éloignez-vous des objets métalliques, des aimants et des coques MagSafe, puis décrivez un 8 avec l'iPhone pour recalibrer la boussole.</li>
-<li><strong>Je n'ai ni réseau ni GPS.</strong> iQibla garde votre dernière position connue et calcule le nord géographique sur l'iPhone. Vous pouvez aussi choisir une ville dans la liste intégrée.</li>
+<li><strong>La direction semble fausse.</strong> Éloignez-vous des objets métalliques, des aimants et des coques MagSafe, puis décrivez un 8 avec votre appareil pour recalibrer la boussole.</li>
+<li><strong>Je n'ai ni réseau ni GPS.</strong> iQibla garde votre dernière position connue et calcule le nord géographique sur votre appareil. Vous pouvez aussi choisir une ville dans la liste intégrée.</li>
 <li><strong>Je suis dans un parking.</strong> Ouvrez l'app avant d'y entrer : si la boussole est perturbée, le gyroscope garde la direction pendant 15 minutes.</li>
 <li><strong>Les mosquées ne s'affichent pas.</strong> La recherche utilise Apple Plans et nécessite une connexion Internet.</li>
-<li><strong>Comment la direction est-elle calculée ?</strong> Par le plus court chemin à la surface de la Terre (géodésique sur l'ellipsoïde WGS84), directement sur votre iPhone.</li>
+<li><strong>Comment la direction est-elle calculée ?</strong> Par le plus court chemin à la surface de la Terre (géodésique sur l'ellipsoïde WGS84), directement sur votre appareil.</li>
 </ul>
 <h3>Nous contacter</h3>
 <p>Une question, un bug, une idée ? <a href="https://github.com/Hariisss78/iqibla/issues">Écrivez-nous ici</a>.</p></section>
 
-<section class="card" id="en"><p class="lang">English</p><h2>Support</h2>
-<p>iQibla shows the direction of the Kaaba from anywhere in the world: compass, map, nearby mosques and augmented reality.</p>
+<section class="card" id="en" lang="en"><h2>Support</h2>
+<p>iQibla shows the direction of the Kaaba from anywhere in the world, on iPhone, iPad and Apple Watch: compass, map, nearby mosques and augmented reality.</p>
 <h3>FAQ</h3>
 <ul>
-<li><strong>The direction looks wrong.</strong> Move away from metal objects, magnets and MagSafe cases, then move your iPhone in a figure 8 to recalibrate the compass.</li>
-<li><strong>No network or GPS.</strong> iQibla keeps your last known location and computes true north on your iPhone. You can also pick a city from the built-in list.</li>
+<li><strong>The direction looks wrong.</strong> Move away from metal objects, magnets and MagSafe cases, then move your device in a figure 8 to recalibrate the compass.</li>
+<li><strong>No network or GPS.</strong> iQibla keeps your last known location and computes true north on your device. You can also pick a city from the built-in list.</li>
 <li><strong>I'm in a parking garage.</strong> Open the app before entering: if the compass is disturbed, the gyroscope keeps the direction for 15 minutes.</li>
 <li><strong>Mosques don't appear.</strong> The search uses Apple Maps and requires an internet connection.</li>
-<li><strong>How is the direction calculated?</strong> Along the shortest path on the Earth's surface (geodesic on the WGS84 ellipsoid), entirely on your iPhone.</li>
+<li><strong>How is the direction calculated?</strong> Along the shortest path on the Earth's surface (geodesic on the WGS84 ellipsoid), entirely on your device.</li>
 </ul>
 <h3>Contact</h3>
 <p>Question, bug or idea? <a href="https://github.com/Hariisss78/iqibla/issues">Write to us here</a>.</p></section>
+
+<section class="card" id="ar" lang="ar" dir="rtl"><h2>الدعم</h2>
+<p>يعرض iQibla اتجاه الكعبة من أي مكان في العالم على iPhone وiPad وApple Watch: بوصلة وخريطة ومساجد قريبة وواقع معزّز.</p>
+<h3>أسئلة شائعة</h3>
+<ul>
+<li><strong>يبدو الاتجاه غير صحيح.</strong> ابتعد عن الأجسام المعدنية والمغناطيس وأغطية MagSafe، ثم حرّك جهازك على شكل الرقم 8 لإعادة معايرة البوصلة.</li>
+<li><strong>لا توجد شبكة ولا GPS.</strong> يحتفظ iQibla بآخر موقع معروف لك ويحسب الشمال الجغرافي على جهازك. ويمكنك أيضًا اختيار مدينة من القائمة المدمجة.</li>
+<li><strong>أنا في موقف سيارات.</strong> افتح التطبيق قبل الدخول: إذا تشوّشت البوصلة، يحافظ الجيروسكوب على الاتجاه لمدة 15 دقيقة.</li>
+<li><strong>لا تظهر المساجد.</strong> يستخدم البحث خرائط Apple ويتطلب اتصالًا بالإنترنت.</li>
+<li><strong>كيف يُحسب الاتجاه؟</strong> عبر أقصر مسار على سطح الأرض (خط جيوديسي على الإهليلج WGS84)، مباشرةً على جهازك.</li>
+</ul>
+<h3>تواصل معنا</h3>
+<p>لديك سؤال أو مشكلة أو فكرة؟ <a href="https://github.com/Hariisss78/iqibla/issues">راسلنا هنا</a>.</p></section>
+
+<section class="card" id="tr" lang="tr"><h2>Destek</h2>
+<p>iQibla, dünyanın her yerinden Kâbe'nin yönünü iPhone, iPad ve Apple Watch'ta gösterir: pusula, harita, yakındaki camiler ve artırılmış gerçeklik.</p>
+<h3>Sık sorulan sorular</h3>
+<ul>
+<li><strong>Yön yanlış görünüyor.</strong> Metal eşyalardan, mıknatıslardan ve MagSafe kılıflardan uzaklaşın, ardından pusulayı yeniden kalibre etmek için cihazınızla havada 8 çizin.</li>
+<li><strong>İnternetim de GPS'im de yok.</strong> iQibla bilinen son konumunuzu saklar ve coğrafi kuzeyi cihazınızda hesaplar. Yerleşik listeden bir şehir de seçebilirsiniz.</li>
+<li><strong>Otoparktayım.</strong> Uygulamayı içeri girmeden açın: pusula etkilenirse jiroskop yönü 15 dakika boyunca korur.</li>
+<li><strong>Camiler görünmüyor.</strong> Arama Apple Haritalar'ı kullanır ve internet bağlantısı gerektirir.</li>
+<li><strong>Yön nasıl hesaplanıyor?</strong> Dünya yüzeyindeki en kısa yol üzerinden (WGS84 elipsoidi üzerinde jeodezik), doğrudan cihazınızda.</li>
+</ul>
+<h3>İletişim</h3>
+<p>Sorunuz, bir hata ya da fikriniz mi var? <a href="https://github.com/Hariisss78/iqibla/issues">Bize buradan yazın</a>.</p></section>
+
+<section class="card" id="ur" lang="ur" dir="rtl"><h2>معاونت</h2>
+<p>iQibla دنیا میں کہیں سے بھی iPhone، iPad اور Apple Watch پر خانۂ کعبہ کی سمت دکھاتا ہے: کمپاس، نقشہ، قریبی مساجد اور آگمینٹڈ ریئلٹی۔</p>
+<h3>عام سوالات</h3>
+<ul>
+<li><strong>سمت غلط لگ رہی ہے۔</strong> دھاتی اشیاء، مقناطیس اور MagSafe کور سے دور ہو جائیں، پھر کمپاس کو دوبارہ کیلیبریٹ کرنے کے لیے اپنے آلے کو 8 کی شکل میں گھمائیں۔</li>
+<li><strong>نہ نیٹ ورک ہے نہ GPS۔</strong> iQibla آپ کا آخری معلوم مقام محفوظ رکھتا ہے اور جغرافیائی شمال کا حساب آپ کے آلے پر ہی لگاتا ہے۔ آپ بلٹ اِن فہرست سے کوئی شہر بھی منتخب کر سکتے ہیں۔</li>
+<li><strong>میں پارکنگ میں ہوں۔</strong> اندر جانے سے پہلے ایپ کھول لیں: اگر کمپاس متاثر ہو تو جائروسکوپ 15 منٹ تک سمت برقرار رکھتا ہے۔</li>
+<li><strong>مساجد نظر نہیں آ رہیں۔</strong> تلاش Apple Maps استعمال کرتی ہے اور اس کے لیے انٹرنیٹ کنکشن ضروری ہے۔</li>
+<li><strong>سمت کا حساب کیسے لگایا جاتا ہے؟</strong> زمین کی سطح پر سب سے مختصر راستے (WGS84 بیضوی پر جیوڈیسک) کے ذریعے، براہِ راست آپ کے آلے پر۔</li>
+</ul>
+<h3>رابطہ</h3>
+<p>کوئی سوال، خرابی یا خیال؟ <a href="https://github.com/Hariisss78/iqibla/issues">ہمیں یہاں لکھیں</a>۔</p></section>
+
+<section class="card" id="id" lang="id"><h2>Bantuan</h2>
+<p>iQibla menunjukkan arah Ka'bah dari mana pun di dunia, di iPhone, iPad, dan Apple Watch: kompas, peta, masjid terdekat, dan augmented reality.</p>
+<h3>Pertanyaan umum</h3>
+<ul>
+<li><strong>Arahnya tampak salah.</strong> Jauhi benda logam, magnet, dan casing MagSafe, lalu gerakkan perangkat Anda membentuk angka 8 untuk mengkalibrasi ulang kompas.</li>
+<li><strong>Tidak ada jaringan maupun GPS.</strong> iQibla menyimpan lokasi terakhir Anda dan menghitung arah utara sejati di perangkat Anda. Anda juga dapat memilih kota dari daftar bawaan.</li>
+<li><strong>Saya berada di tempat parkir.</strong> Buka aplikasi sebelum masuk: jika kompas terganggu, giroskop akan menjaga arah selama 15 menit.</li>
+<li><strong>Masjid tidak muncul.</strong> Pencarian menggunakan Apple Maps dan memerlukan koneksi internet.</li>
+<li><strong>Bagaimana arah dihitung?</strong> Melalui jalur terpendek di permukaan bumi (geodesik pada elipsoid WGS84), langsung di perangkat Anda.</li>
+</ul>
+<h3>Hubungi kami</h3>
+<p>Ada pertanyaan, bug, atau ide? <a href="https://github.com/Hariisss78/iqibla/issues">Tulis kepada kami di sini</a>.</p></section>
+
+<section class="card" id="ms" lang="ms"><h2>Bantuan</h2>
+<p>iQibla menunjukkan arah Kaabah dari mana-mana sahaja di dunia, pada iPhone, iPad dan Apple Watch: kompas, peta, masjid berdekatan dan realiti terimbuh.</p>
+<h3>Soalan lazim</h3>
+<ul>
+<li><strong>Arahnya kelihatan salah.</strong> Jauhkan diri daripada objek logam, magnet dan sarung MagSafe, kemudian gerakkan peranti anda membentuk angka 8 untuk menentukur semula kompas.</li>
+<li><strong>Tiada rangkaian atau GPS.</strong> iQibla menyimpan lokasi terakhir anda dan mengira arah utara sebenar pada peranti anda. Anda juga boleh memilih bandar daripada senarai terbina dalam.</li>
+<li><strong>Saya berada di tempat letak kereta.</strong> Buka aplikasi sebelum masuk: jika kompas terganggu, giroskop akan mengekalkan arah selama 15 minit.</li>
+<li><strong>Masjid tidak dipaparkan.</strong> Carian menggunakan Apple Maps dan memerlukan sambungan internet.</li>
+<li><strong>Bagaimanakah arah dikira?</strong> Melalui laluan terpendek di permukaan bumi (geodesi pada elipsoid WGS84), terus pada peranti anda.</li>
+</ul>
+<h3>Hubungi kami</h3>
+<p>Ada soalan, pepijat atau idea? <a href="https://github.com/Hariisss78/iqibla/issues">Tulis kepada kami di sini</a>.</p></section>
+
+<section class="card" id="bn" lang="bn"><h2>সহায়তা</h2>
+<p>iQibla পৃথিবীর যেকোনো স্থান থেকে iPhone, iPad ও Apple Watch-এ কাবার দিক দেখায়: কম্পাস, মানচিত্র, কাছের মসজিদ ও অগমেন্টেড রিয়েলিটি।</p>
+<h3>সাধারণ প্রশ্ন</h3>
+<ul>
+<li><strong>দিকটি ভুল মনে হচ্ছে।</strong> ধাতব বস্তু, চুম্বক ও MagSafe কভার থেকে দূরে সরে যান, তারপর কম্পাস পুনরায় ক্যালিব্রেট করতে আপনার ডিভাইসটি ৮-এর আকারে ঘোরান।</li>
+<li><strong>নেটওয়ার্ক বা GPS নেই।</strong> iQibla আপনার সর্বশেষ জানা অবস্থান মনে রাখে এবং আপনার ডিভাইসেই ভৌগোলিক উত্তর নির্ণয় করে। আপনি অন্তর্নির্মিত তালিকা থেকে একটি শহরও বেছে নিতে পারেন।</li>
+<li><strong>আমি পার্কিংয়ে আছি।</strong> ভেতরে ঢোকার আগে অ্যাপটি খুলুন: কম্পাস বিঘ্নিত হলে জাইরোস্কোপ ১৫ মিনিট পর্যন্ত দিক ধরে রাখে।</li>
+<li><strong>মসজিদ দেখা যাচ্ছে না।</strong> অনুসন্ধানে Apple Maps ব্যবহৃত হয় এবং ইন্টারনেট সংযোগ প্রয়োজন।</li>
+<li><strong>দিক কীভাবে নির্ণয় করা হয়?</strong> পৃথিবীর পৃষ্ঠে সবচেয়ে ছোট পথ ধরে (WGS84 উপবৃত্তাকারে জিওডেসিক), সরাসরি আপনার ডিভাইসে।</li>
+</ul>
+<h3>যোগাযোগ</h3>
+<p>কোনো প্রশ্ন, ত্রুটি বা ধারণা আছে? <a href="https://github.com/Hariisss78/iqibla/issues">এখানে আমাদের লিখুন</a>।</p></section>
+
+<section class="card" id="de" lang="de"><h2>Hilfe</h2>
+<p>iQibla zeigt dir von überall auf der Welt die Richtung der Kaaba – auf iPhone, iPad und Apple Watch: Kompass, Karte, Moscheen in der Nähe und erweiterte Realität.</p>
+<h3>Häufige Fragen</h3>
+<ul>
+<li><strong>Die Richtung scheint falsch zu sein.</strong> Entferne dich von Metallgegenständen, Magneten und MagSafe-Hüllen und bewege dein Gerät dann in Form einer 8, um den Kompass neu zu kalibrieren.</li>
+<li><strong>Ich habe weder Netz noch GPS.</strong> iQibla speichert deinen letzten bekannten Standort und berechnet die geografische Nordrichtung auf deinem Gerät. Du kannst auch eine Stadt aus der integrierten Liste wählen.</li>
+<li><strong>Ich bin in einem Parkhaus.</strong> Öffne die App, bevor du hineinfährst: Wenn der Kompass gestört ist, hält das Gyroskop die Richtung 15 Minuten lang.</li>
+<li><strong>Es werden keine Moscheen angezeigt.</strong> Die Suche nutzt Apple Karten und benötigt eine Internetverbindung.</li>
+<li><strong>Wie wird die Richtung berechnet?</strong> Über den kürzesten Weg auf der Erdoberfläche (Geodäte auf dem WGS84-Ellipsoid), direkt auf deinem Gerät.</li>
+</ul>
+<h3>Kontakt</h3>
+<p>Eine Frage, ein Fehler oder eine Idee? <a href="https://github.com/Hariisss78/iqibla/issues">Schreib uns hier</a>.</p></section>
+
+<section class="card" id="es" lang="es"><h2>Ayuda</h2>
+<p>iQibla indica la dirección de la Kaaba desde cualquier lugar del mundo, en iPhone, iPad y Apple Watch: brújula, mapa, mezquitas cercanas y realidad aumentada.</p>
+<h3>Preguntas frecuentes</h3>
+<ul>
+<li><strong>La dirección parece incorrecta.</strong> Aléjate de objetos metálicos, imanes y fundas MagSafe, y luego mueve tu dispositivo trazando un 8 para recalibrar la brújula.</li>
+<li><strong>No tengo red ni GPS.</strong> iQibla guarda tu última ubicación conocida y calcula el norte geográfico en tu dispositivo. También puedes elegir una ciudad de la lista integrada.</li>
+<li><strong>Estoy en un aparcamiento.</strong> Abre la app antes de entrar: si la brújula sufre interferencias, el giroscopio mantiene la dirección durante 15 minutos.</li>
+<li><strong>No aparecen las mezquitas.</strong> La búsqueda usa Apple Mapas y necesita conexión a internet.</li>
+<li><strong>¿Cómo se calcula la dirección?</strong> Por el camino más corto sobre la superficie terrestre (geodésica sobre el elipsoide WGS84), directamente en tu dispositivo.</li>
+</ul>
+<h3>Contacto</h3>
+<p>¿Una pregunta, un error o una idea? <a href="https://github.com/Hariisss78/iqibla/issues">Escríbenos aquí</a>.</p></section>
+
+<section class="card" id="el" lang="el"><h2>Υποστήριξη</h2>
+<p>Το iQibla δείχνει την κατεύθυνση της Κάαμπα από οπουδήποτε στον κόσμο, σε iPhone, iPad και Apple Watch: πυξίδα, χάρτης, κοντινά τεμένη και επαυξημένη πραγματικότητα.</p>
+<h3>Συχνές ερωτήσεις</h3>
+<ul>
+<li><strong>Η κατεύθυνση φαίνεται λάθος.</strong> Απομακρυνθείτε από μεταλλικά αντικείμενα, μαγνήτες και θήκες MagSafe και, στη συνέχεια, κινήστε τη συσκευή σας σχηματίζοντας ένα 8 για να βαθμονομήσετε ξανά την πυξίδα.</li>
+<li><strong>Δεν έχω δίκτυο ούτε GPS.</strong> Το iQibla κρατά την τελευταία γνωστή τοποθεσία σας και υπολογίζει τον γεωγραφικό βορρά στη συσκευή σας. Μπορείτε επίσης να επιλέξετε μια πόλη από την ενσωματωμένη λίστα.</li>
+<li><strong>Βρίσκομαι σε χώρο στάθμευσης.</strong> Ανοίξτε την εφαρμογή πριν μπείτε: αν η πυξίδα επηρεαστεί, το γυροσκόπιο διατηρεί την κατεύθυνση για 15 λεπτά.</li>
+<li><strong>Τα τεμένη δεν εμφανίζονται.</strong> Η αναζήτηση χρησιμοποιεί τους Χάρτες της Apple και απαιτεί σύνδεση στο διαδίκτυο.</li>
+<li><strong>Πώς υπολογίζεται η κατεύθυνση;</strong> Μέσω της συντομότερης διαδρομής στην επιφάνεια της Γης (γεωδαισιακή στο ελλειψοειδές WGS84), απευθείας στη συσκευή σας.</li>
+</ul>
+<h3>Επικοινωνία</h3>
+<p>Έχετε ερώτηση, πρόβλημα ή ιδέα; <a href="https://github.com/Hariisss78/iqibla/issues">Γράψτε μας εδώ</a>.</p></section>
+
+<section class="card" id="ta" lang="ta"><h2>உதவி</h2>
+<p>iQibla உலகின் எந்த இடத்திலிருந்தும் கஅபாவின் திசையை iPhone, iPad மற்றும் Apple Watch-இல் காட்டுகிறது: திசைகாட்டி, வரைபடம், அருகிலுள்ள பள்ளிவாசல்கள் மற்றும் ஆக்மென்டட் ரியாலிட்டி.</p>
+<h3>அடிக்கடி கேட்கப்படும் கேள்விகள்</h3>
+<ul>
+<li><strong>திசை தவறாகத் தெரிகிறது.</strong> உலோகப் பொருட்கள், காந்தங்கள் மற்றும் MagSafe உறைகளிலிருந்து விலகி, திசைகாட்டியை மீண்டும் அளவீடு செய்ய உங்கள் சாதனத்தை 8 வடிவில் அசைக்கவும்.</li>
+<li><strong>நெட்வொர்க்கும் GPS-உம் இல்லை.</strong> iQibla உங்கள் கடைசியாக அறியப்பட்ட இருப்பிடத்தை நினைவில் வைத்து, உண்மையான வடக்கை உங்கள் சாதனத்திலேயே கணக்கிடுகிறது. உள்ளமைந்த பட்டியலிலிருந்து ஒரு நகரத்தையும் தேர்ந்தெடுக்கலாம்.</li>
+<li><strong>நான் வாகன நிறுத்துமிடத்தில் இருக்கிறேன்.</strong> உள்ளே செல்லும் முன் ஆப்பைத் திறக்கவும்: திசைகாட்டி பாதிக்கப்பட்டால், கைரோஸ்கோப் 15 நிமிடங்கள் வரை திசையைத் தக்கவைக்கும்.</li>
+<li><strong>பள்ளிவாசல்கள் தெரியவில்லை.</strong> தேடல் Apple Maps-ஐப் பயன்படுத்துகிறது; இணைய இணைப்பு தேவை.</li>
+<li><strong>திசை எப்படிக் கணக்கிடப்படுகிறது?</strong> பூமியின் மேற்பரப்பில் உள்ள மிகக் குறுகிய பாதை வழியாக (WGS84 நீள்வட்டத்தில் ஜியோடெசிக்), நேரடியாக உங்கள் சாதனத்தில்.</li>
+</ul>
+<h3>தொடர்பு</h3>
+<p>கேள்வி, பிழை அல்லது யோசனை உள்ளதா? <a href="https://github.com/Hariisss78/iqibla/issues">இங்கே எங்களுக்கு எழுதுங்கள்</a>.</p></section>
+
 <footer>© 2026 Harith Zorgati · iQibla</footer>
-</main></body></html>
+</main>
+<script>
+(function () {
+  var T = {"fr": {"h1": "iQibla", "sub": "La direction de la Qibla, partout.", "link": "Politique de confidentialité", "label": "Langue", "title": "iQibla – Assistance"}, "en": {"h1": "iQibla", "sub": "The Qibla direction, anywhere.", "link": "Privacy Policy", "label": "Language", "title": "iQibla – Support"}, "ar": {"h1": "iQibla", "sub": "اتجاه القبلة، في كل مكان.", "link": "سياسة الخصوصية", "label": "اللغة", "title": "iQibla – الدعم"}, "tr": {"h1": "iQibla", "sub": "Kıble yönü, her yerde.", "link": "Gizlilik Politikası", "label": "Dil", "title": "iQibla – Destek"}, "ur": {"h1": "iQibla", "sub": "قبلہ کی سمت، ہر جگہ۔", "link": "رازداری کی پالیسی", "label": "زبان", "title": "iQibla – معاونت"}, "id": {"h1": "iQibla", "sub": "Arah kiblat, di mana saja.", "link": "Kebijakan Privasi", "label": "Bahasa", "title": "iQibla – Bantuan"}, "ms": {"h1": "iQibla", "sub": "Arah kiblat, di mana-mana.", "link": "Dasar Privasi", "label": "Bahasa", "title": "iQibla – Bantuan"}, "bn": {"h1": "iQibla", "sub": "কিবলার দিক, সব জায়গায়।", "link": "গোপনীয়তা নীতি", "label": "ভাষা", "title": "iQibla – সহায়তা"}, "de": {"h1": "iQibla", "sub": "Die Qibla-Richtung, überall.", "link": "Datenschutzrichtlinie", "label": "Sprache", "title": "iQibla – Hilfe"}, "es": {"h1": "iQibla", "sub": "La dirección de la Qibla, en cualquier lugar.", "link": "Política de privacidad", "label": "Idioma", "title": "iQibla – Ayuda"}, "el": {"h1": "iQibla", "sub": "Η κατεύθυνση της Κίμπλα, παντού.", "link": "Πολιτική απορρήτου", "label": "Γλώσσα", "title": "iQibla – Υποστήριξη"}, "ta": {"h1": "iQibla", "sub": "கிப்லா திசை, எங்கும்.", "link": "தனியுரிமைக் கொள்கை", "label": "மொழி", "title": "iQibla – உதவி"}};
+  var RTL = {ar: 1, ur: 1};
+  var OTHER = "privacy.html";
+  var sel = document.getElementById("lang");
+  function store(c) { try { localStorage.setItem("iqibla.lang", c); } catch (e) {} }
+  function stored() { try { return localStorage.getItem("iqibla.lang"); } catch (e) { return null; } }
+  function pick() {
+    var q = (location.search.match(/[?&]lang=([a-z]+)/) || [])[1];
+    var h = location.hash.slice(1);
+    var cands = [q, h, stored()].concat(navigator.languages || [navigator.language || ""]);
+    for (var i = 0; i < cands.length; i++) {
+      var c = String(cands[i] || "").toLowerCase().split("-")[0];
+      if (T[c]) return c;
+    }
+    return "en";
+  }
+  function show(c, save) {
+    var secs = document.querySelectorAll("section.card");
+    for (var i = 0; i < secs.length; i++) secs[i].classList.toggle("on", secs[i].id === c);
+    var t = T[c], root = document.documentElement;
+    root.lang = c; root.dir = RTL[c] ? "rtl" : "ltr";
+    document.title = t.title;
+    document.getElementById("h1").textContent = t.h1;
+    document.getElementById("sub").textContent = t.sub;
+    var o = document.getElementById("other"); o.textContent = t.link; o.href = OTHER + "?lang=" + c;
+    sel.value = c; sel.setAttribute("aria-label", t.label);
+    if (save) {
+      store(c);
+      try { history.replaceState(null, "", location.pathname + "?lang=" + c); } catch (e) {}
+    }
+  }
+  sel.addEventListener("change", function () { show(sel.value, true); window.scrollTo(0, 0); });
+  show(pick(), false);
+})();
+</script>
+</body></html>
