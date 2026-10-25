@@ -8,3 +8,7 @@ h1{font-size:40px;letter-spacing:-.02em;margin:16px 0 4px}h2{font-size:24px;marg
 a{color:var(--gold)}nav{text-align:center;margin:8px 0 0}nav a{margin:0 10px;text-decoration:none;font-weight:600}
 ul{padding-left:20px}li{margin:6px 0}footer{text-align:center;color:var(--muted);font-size:14px;margin-top:40px}
 .lang{color:var(--muted);font-size:14px;text-transform:uppercase;letter-spacing:.08em;margin:0 0 8px}
+nav.langs{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 0;max-width:620px;margin:12px auto 4px}
+nav.langs a{margin:0 9px;font-weight:500}
+.card[dir=rtl]{text-align:right}.card[dir=rtl] .lang{letter-spacing:0}
+.card[lang=ur]{line-height:1.9}
